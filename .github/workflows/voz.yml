@@ -1,0 +1,24 @@
+name: voz
+on:
+  push:
+    paths: ['voz/pedidos/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install "edge-tts>=7"
+      - run: python voz/generar.py
+      - run: |
+          git config user.name cunclave-bot
+          git config user.email bot@cunclave.com
+          git add voz/salida
+          git commit -m "voz generada" || echo "nada nuevo"
+          git pull --rebase
+          git push
