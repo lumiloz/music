@@ -1,12 +1,18 @@
 # Genera voz neural (edge-tts) para cada pedido en voz/pedidos/*.json que no tenga salida.
 # Pedido: {"voice": "es-MX-JorgeNeural", "rate": "+8%", "pitch": "+0Hz", "text": "..."}
 # Salida: voz/salida/<nombre>.mp3 y <nombre>.json (palabras con offset/duración en segundos)
-import asyncio, json, glob, os, edge_tts
+import asyncio, json, glob, os, importlib, edge_tts, edge_tts.communicate as _ec
+def set_fmt(fmt):   # pide mayor calidad al servicio si el pedido lo indica
+    p = _ec.__file__; src = open(p).read()
+    import re
+    src2 = re.sub(r'audio-24khz-\d+kbitrate-mono-mp3', fmt, src)
+    if src2 != src: open(p, 'w').write(src2); importlib.reload(_ec); importlib.reload(edge_tts)
 os.makedirs('voz/salida', exist_ok=True)
 async def run(p):
     name = os.path.splitext(os.path.basename(p))[0]
     if os.path.exists(f'voz/salida/{name}.mp3'): return
     cfg = json.load(open(p, encoding='utf-8'))
+    if cfg.get('fmt'): set_fmt(cfg['fmt'])
     c = edge_tts.Communicate(cfg['text'], cfg.get('voice', 'es-MX-JorgeNeural'), rate=cfg.get('rate', '+0%'),
                              pitch=cfg.get('pitch', '+0Hz'), volume=cfg.get('volume', '+0%'), boundary='WordBoundary')
     words = []
