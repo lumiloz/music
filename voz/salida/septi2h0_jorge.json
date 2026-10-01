@@ -1,0 +1,39 @@
+{
+"words": [
+{
+"w": "Hoteles",
+"t": 0.097166,
+"d": 0.507083
+},
+{
+"w": "a",
+"t": 0.616041,
+"d": 0.0471659
+},
+{
+"w": "la",
+"t": 0.675,
+"d": 0.082541
+},
+{
+"w": "mitad",
+"t": 0.769333,
+"d": 0.448125
+},
+{
+"w": "Restaurantes",
+"t": 2.029,
+"d": 0.707541
+},
+{
+"w": "cerrando",
+"t": 2.748333,
+"d": 0.507083
+}
+],
+"cfg": {
+"voice": "es-MX-JorgeNeural",
+"rate": "+6%",
+"text": "Hoteles a la mitad. Restaurantes cerrando."
+}
+}
