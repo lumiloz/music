@@ -1,0 +1,23 @@
+{
+"files": [
+"hotb1_jorge_00.mp3",
+"hotb1_jorge_01.mp3",
+"hotb1_jorge_02.mp3",
+"hotb1_jorge_03.mp3",
+"hotb1_jorge_04.mp3",
+"hotb1_jorge_05.mp3"
+],
+"cfg": {
+"engine": "bing",
+"voice": "es-MX-JorgeNeural",
+"rate": "+5%",
+"lines": [
+"El hotelero Abelardo Vara lo dijo sin rodeos: \"Me va a caer una auditoría por decir todas estas cosas\".",
+"Según él, la hotelería de Cancún vive uno de sus peores años, con tarifas nunca antes vistas.",
+"Y los datos lo respaldan: a inicios de octubre, la ocupación del Caribe Mexicano cayó a cuarenta y seis por ciento.",
+"Vara culpa al gobierno: alza de salarios, jornada de cuarenta horas, falta de promoción y plataformas digitales.",
+"Y sobre las represalias dijo: \"No está escrita en ninguna parte, pero cada vez que hay algo que no le gusta a papá gobierno, comienzan a llegar cosas\".",
+"¿Se puede criticar al gobierno sin miedo?"
+]
+}
+}
