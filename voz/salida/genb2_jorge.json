@@ -1,0 +1,27 @@
+{
+"files": [
+"genb2_jorge_00.mp3",
+"genb2_jorge_01.mp3",
+"genb2_jorge_02.mp3",
+"genb2_jorge_03.mp3",
+"genb2_jorge_04.mp3",
+"genb2_jorge_05.mp3",
+"genb2_jorge_06.mp3",
+"genb2_jorge_07.mp3"
+],
+"cfg": {
+"engine": "bing",
+"voice": "es-MX-JorgeNeural",
+"rate": "+5%",
+"lines": [
+"En el centro de Cancún, sobre Yaxchilán y Uxmal, nació la llamada Pequeña Cuba.",
+"Paladares, cafés y salsa de una comunidad que ya supera los dos mil cubanos en la ciudad.",
+"Desde 2025 llegan también deportados de Estados Unidos, muchos sin documentos, sin dinero y sin red de apoyo.",
+"Trabajan en limpieza, seguridad, construcción o restaurantes, a veces sin prestaciones y con pagos atrasados.",
+"Y enfrentan rechazo: hay caseros que no les rentan y patrones que no los contratan.",
+"Quintana Roo no tiene un refugio para migrantes, advierte la Fundación CISVAC.",
+"Aun así, negocios locales los contratan mientras regularizan su situación.",
+"¿Cancún sabe recibir a quienes llegan?"
+]
+}
+}
