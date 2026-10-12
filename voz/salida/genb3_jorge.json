@@ -1,0 +1,27 @@
+{
+"files": [
+"genb3_jorge_00.mp3",
+"genb3_jorge_01.mp3",
+"genb3_jorge_02.mp3",
+"genb3_jorge_03.mp3",
+"genb3_jorge_04.mp3",
+"genb3_jorge_05.mp3",
+"genb3_jorge_06.mp3",
+"genb3_jorge_07.mp3"
+],
+"cfg": {
+"engine": "bing",
+"voice": "es-MX-JorgeNeural",
+"rate": "+5%",
+"lines": [
+"En el centro de Cancún, sobre Yaxchilán y Uxmal, nació la llamada Pequeña Cuba.",
+"Casas de los primeros vecinos hoy son paladares, cafés y salsa de más de dos mil cubanos.",
+"Y la migración no se detiene: en 2025, Cuba perdió casi doscientas cincuenta mil personas.",
+"En México, las solicitudes de refugio de cubanos casi se duplicaron: más de treinta y cuatro mil.",
+"A Cancún llegan también deportados de Estados Unidos, muchos sin documentos ni red de apoyo.",
+"Trabajan sin prestaciones, con pagos atrasados, y hay caseros que no les rentan.",
+"Quintana Roo no tiene un refugio para migrantes, advierte la Fundación CISVAC.",
+"¿Cancún está lista para recibirlos?"
+]
+}
+}
