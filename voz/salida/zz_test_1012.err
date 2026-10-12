@@ -1,0 +1,93 @@
+--- intento 1 (edge-tts 7.2.8)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1329, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=d2dbce52a0ff4b09ac76fd17039a606f&Sec-MS-GEC=34A0606D789F3F1D3B59198ED380920D939DA1DB913F687FEB3548DF468F9395&Sec-MS-GEC-Version=1-143.0.3650.75'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/music/music/voz/generar.py", line 34, in run
+    await synth(name, cfg); return
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/music/music/voz/generar.py", line 17, in synth
+    async for ch in c.stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 596, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1329, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=e4ccecbd26904be390ac732820f8165d&Sec-MS-GEC=34A0606D789F3F1D3B59198ED380920D939DA1DB913F687FEB3548DF468F9395&Sec-MS-GEC-Version=1-143.0.3650.75'
+--- intento 2 (edge-tts 7.2.8)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1329, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=983efe23d0bf4763b1e40046146a1b01&Sec-MS-GEC=34A0606D789F3F1D3B59198ED380920D939DA1DB913F687FEB3548DF468F9395&Sec-MS-GEC-Version=1-143.0.3650.75'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/music/music/voz/generar.py", line 34, in run
+    await synth(name, cfg); return
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/music/music/voz/generar.py", line 17, in synth
+    async for ch in c.stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 596, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1329, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=53e91b26d8a74dc3b6f50212f84eb981&Sec-MS-GEC=34A0606D789F3F1D3B59198ED380920D939DA1DB913F687FEB3548DF468F9395&Sec-MS-GEC-Version=1-143.0.3650.75'
+--- intento 3 (edge-tts 7.2.8)
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1329, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=845769ea161c46619ad99c0b432256c9&Sec-MS-GEC=34A0606D789F3F1D3B59198ED380920D939DA1DB913F687FEB3548DF468F9395&Sec-MS-GEC-Version=1-143.0.3650.75'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/runner/work/music/music/voz/generar.py", line 34, in run
+    await synth(name, cfg); return
+    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/music/music/voz/generar.py", line 17, in synth
+    async for ch in c.stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 596, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 461, in __stream
+    async with aiohttp.ClientSession(
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1756, in __aenter__
+    self._resp: _RetType_co = await self._coro
+                              ^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/aiohttp/client.py", line 1329, in _ws_connect
+    raise WSServerHandshakeError(
+aiohttp.client_exceptions.WSServerHandshakeError: 403, message='Invalid response status', url='wss://speech.platform.bing.com/consumer/speech/synthesize/readaloud/edge/v1?TrustedClientToken=6A5AA1D4EAFF4E9FB37E23D68491D6F4&ConnectionId=44b4ee6d3111440bab813e7410b3c795&Sec-MS-GEC=34A0606D789F3F1D3B59198ED380920D939DA1DB913F687FEB3548DF468F9395&Sec-MS-GEC-Version=1-143.0.3650.75'
