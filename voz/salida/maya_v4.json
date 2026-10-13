@@ -1,0 +1,14 @@
+{
+"files": [
+"maya_v4_00.mp3"
+],
+"cfg": {
+"engine": "bing",
+"voice": "es-MX-DaliaNeural",
+"rate": "+5%",
+"ssml": true,
+"lines": [
+"¿Crees que no hablas maya? Si alguna vez escuchaste <phoneme alphabet='ipa' ph='tuʧ'>tuch</phoneme>, ya escuchaste maya. Significa ombligo."
+]
+}
+}
