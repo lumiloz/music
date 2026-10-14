@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "/home/runner/work/music/music/voz/generar.py", line 60, in run
+    if cfg.get('engine') == 'bing': run_bing(name, cfg)
+                                    ^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/music/music/voz/generar.py", line 36, in run_bing
+    b = bing_tts(sess, line, cfg.get('voice', 'es-MX-JorgeNeural'), cfg.get('rate', '+0%'), i + 2, cfg.get('ssml', False)); break
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/music/music/voz/generar.py", line 28, in bing_tts
+    r = op.open(req, timeout=60); b = r.read()
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 401: Unauthorized
