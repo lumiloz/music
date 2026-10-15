@@ -1,0 +1,13 @@
+{
+"files": [
+"lsm_v1_00.mp3"
+],
+"cfg": {
+"engine": "bing",
+"voice": "es-MX-DaliaNeural",
+"rate": "+5%",
+"lines": [
+"¿Sabrías cómo hablar con una persona sorda? En Quintana Roo, eso podría aprenderse en la escuela. Diputados locales proponen que la Lengua de Señas Mexicana se enseñe de forma obligatoria en las escuelas del estado. Y reconocerla en la Constitución local como patrimonio lingüístico. Según la iniciativa, en Quintana Roo viven unas cuarenta mil personas con alguna limitación o discapacidad auditiva. Muchas dejan la escuela por falta de intérpretes, maestros capacitados y materiales. Solo en Cancún, una intérprete estima que hay de diez a doce profesionales registrados. La propuesta sigue en comisiones. ¿Debería ser obligatoria?"
+]
+}
+}
