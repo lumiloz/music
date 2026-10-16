@@ -1,0 +1,13 @@
+{
+"files": [
+"serv_v1_00.mp3"
+],
+"cfg": {
+"engine": "bing",
+"voice": "es-MX-JorgeNeural",
+"rate": "+5%",
+"lines": [
+"La caída del turismo en Cancún ya no solo pega a los hoteles: ya llegó al consultorio, al despacho y hasta al veterinario. Veterinarios reportan que su actividad cayó hasta treinta por ciento en septiembre. En otras temporadas bajas, el golpe era de diez. Dermatólogos reportan menos pacientes: las familias priorizan otros gastos. La Barra de Abogados de Quintana Roo explica la cadena: los negocios pagan primero la nómina, y se atrasan con todo lo demás. Su presidente, Mauro Carmona, lo resume así: al no tener liquidez, empezamos a tener problemas con el cobro de honorarios. Según el INEGI, la economía de Quintana Roo cayó dos punto nueve por ciento anual en el primer trimestre. ¿Tú ya sientes la crisis en tu bolsillo?"
+]
+}
+}
