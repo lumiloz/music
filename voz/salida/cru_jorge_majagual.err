@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/home/runner/work/music/music/voz/generar.py", line 61, in run
+    else: await run_edge(name, cfg)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/music/music/voz/generar.py", line 49, in run_edge
+    async for ch in c.stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 588, in stream
+    async for message in self.__stream():
+  File "/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/edge_tts/communicate.py", line 562, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
