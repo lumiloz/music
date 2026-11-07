@@ -1,0 +1,49 @@
+{
+"words": [
+{
+"w": "Grupo",
+"t": 0.097625,
+"d": 0.333333
+},
+{
+"w": "Xcaret",
+"t": 0.442875,
+"d": 0.476208
+},
+{
+"w": "Grupo",
+"t": 1.75,
+"d": 0.333333
+},
+{
+"w": "Shcaret",
+"t": 2.09525,
+"d": 0.452375
+},
+{
+"w": "Grupo",
+"t": 3.380958,
+"d": 0.34525
+},
+{
+"w": "Ishcaret",
+"t": 3.738083,
+"d": 0.511916
+},
+{
+"w": "Grupo",
+"t": 5.083333,
+"d": 0.333333
+},
+{
+"w": "Scaret",
+"t": 5.428583,
+"d": 0.452375
+}
+],
+"cfg": {
+"voice": "es-MX-JorgeNeural",
+"rate": "+5%",
+"text": "Grupo Xcaret. Grupo Shcaret. Grupo Ishcaret. Grupo Scaret."
+}
+}
